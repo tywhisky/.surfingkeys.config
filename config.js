@@ -1,5 +1,6 @@
 import { DefaultTheme } from './themes/default.js';
 import { RosePineTheme } from './themes/rose-pine.js';
+
 // Choose Tabs
 api.map('gt', 'T');
 
@@ -14,5 +15,5 @@ api.map('F', 'C');
 // ESC
 api.map("<ctrl-[>", "esc");
 
-// set theme
+// Set theme
 settings.theme = RosePineTheme;
