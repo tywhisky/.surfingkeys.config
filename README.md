@@ -3,7 +3,9 @@
 ## Usage
 
 > git clone
+
 > pnpm install
+
 > pnpm run build
 
 Push to your own repo and get the raw link.
