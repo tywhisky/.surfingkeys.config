@@ -1,4 +1,4 @@
-const e="font-size: 13pt; font-family: 'JetBrains Mono NL', 'Cascadia Code', 'Helvetica Neue', Helvetica, Arial, sans-serif; border: 0px; color: #e0def4 !important; background: #191724; background-color: #191724";api.Hints.style(e);api.Hints.style(e,"text");const o=`
+const e="font-size: 13pt; font-family: 'JetBrains Mono NL', 'Cascadia Code', 'Helvetica Neue', Helvetica, Arial, sans-serif; border: 0px; color: #e0def4 !important; background: #191724; background-color: #191724";api.Hints.style(e);api.Hints.style(e,"text");const a=`
   .sk_theme {
     background: #191724;
     color: #e0def4;
@@ -408,4 +408,4 @@ const e="font-size: 13pt; font-family: 'JetBrains Mono NL', 'Cascadia Code', 'He
       padding: 0.2rem;
     }
   }
-`;api.map("gt","T");api.map("H","S");api.map("L","D");api.map("J","E");api.map("K","R");api.map("F","C");api.map("<ctrl-[>","esc");settings.theme=o;
+`;api.map("gt","T");api.map("H","S");api.map("L","D");api.map("J","E");api.map("K","R");api.map("F","C");api.map("<ctrl-[>","esc");settings.theme=a;api.removeSearchAlias("b");api.addSearchAlias("b","bilibili","https://search.bilibili.com/all?keyword=","s","https://s.search.bilibili.com/main/suggest?func=suggest&suggest_type=accurate&sub_type=tag&main_ver=v1&highlight=&upuser_num=3&term=?",function(i){var o=JSON.parse(i.text).result.tag;return o.map(function(t){return t.value})},{favicon_url:"https://www.bilibili.com/favicon.ico"});
