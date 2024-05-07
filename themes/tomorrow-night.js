@@ -237,7 +237,7 @@ input {
 .sk_theme #sk_omnibarSearchArea {
   border-top-color: var(--border);
   border-bottom-color: var(--border);
-  padding-bottom: 5px 5px 10px 5px;
+  padding: 5px 5px 10px 5px;
 }
 
 .sk_theme #sk_omnibarSearchArea input,
