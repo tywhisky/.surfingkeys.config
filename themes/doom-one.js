@@ -1,38 +1,38 @@
-// ---- Hints ----
-// Hints have to be defined separately
+// ---- api.Hints ----
+// api.Hints have to be defined separately
 // Uncomment to enable
 
 // Tomorrow-Night
 /* -- DELETE LINE TO ENABLE THEME
-Hints.style('border: solid 2px #373B41; color:#52C196; background: initial; background-color: #1D1F21;');
-Hints.style("border: solid 2px #373B41 !important; padding: 1px !important; color: #C5C8C6 !important; background: #1D1F21 !important;", "text");
-Visual.style('marks', 'background-color: #52C19699;');
-Visual.style('cursor', 'background-color: #81A2BE;');
+api.Hints.style('border: solid 2px #373B41; color:#52C196; background: initial; background-color: #1D1F21;');
+api.Hints.style("border: solid 2px #373B41 !important; padding: 1px !important; color: #C5C8C6 !important; background: #1D1F21 !important;", "text");
+api.Visual.style('marks', 'background-color: #52C19699;');
+api.Visual.style('cursor', 'background-color: #81A2BE;');
 -- DELETE LINE TO ENABLE THEME */
 
 // Nord
 /* -- DELETE LINE TO ENABLE THEME
-Hints.style('border: solid 2px #4C566A; color:#A3BE8C; background: initial; background-color: #3B4252;');
-Hints.style("border: solid 2px #4C566A !important; padding: 1px !important; color: #E5E9F0 !important; background: #3B4252 !important;", "text");
-Visual.style('marks', 'background-color: #A3BE8C99;');
-Visual.style('cursor', 'background-color: #88C0D0;');
+api.Hints.style('border: solid 2px #4C566A; color:#A3BE8C; background: initial; background-color: #3B4252;');
+api.Hints.style("border: solid 2px #4C566A !important; padding: 1px !important; color: #E5E9F0 !important; background: #3B4252 !important;", "text");
+api.Visual.style('marks', 'background-color: #A3BE8C99;');
+api.Visual.style('cursor', 'background-color: #88C0D0;');
 -- DELETE LINE TO ENABLE THEME */
 
 // Doom One
-Hints.style('border: solid 2px #282C34; color:#98be65; background: initial; background-color: #2E3440;');
-Hints.style("border: solid 2px #282C34 !important; padding: 1px !important; color: #51AFEF !important; background: #2E3440 !important;", "text");
-Visual.style('marks', 'background-color: #98be6599;');
-Visual.style('cursor', 'background-color: #51AFEF;');
+api.Hints.style('border: solid 2px #282C34; color:#98be65; background: initial; background-color: #2E3440;');
+api.Hints.style("border: solid 2px #282C34 !important; padding: 1px !important; color: #51AFEF !important; background: #2E3440 !important;", "text");
+api.Visual.style('marks', 'background-color: #98be6599;');
+api.Visual.style('cursor', 'background-color: #51AFEF;');
 
 // Monokai
 /* -- DELETE LINE TO ENABLE THEME
-Hints.style('border: solid 2px #2D2E2E; color:#F92660; background: initial; background-color: #272822;');
-Hints.style("border: solid 2px #2D2E2E !important; padding: 1px !important; color: #A6E22E !important; background: #272822 !important;", "text");
-Visual.style('marks', 'background-color: #A6E22E99;');
-Visual.style('cursor', 'background-color: #F92660;');
+api.Hints.style('border: solid 2px #2D2E2E; color:#F92660; background: initial; background-color: #272822;');
+api.Hints.style("border: solid 2px #2D2E2E !important; padding: 1px !important; color: #A6E22E !important; background: #272822 !important;", "text");
+api.Visual.style('marks', 'background-color: #A6E22E99;');
+api.Visual.style('cursor', 'background-color: #F92660;');
 -- DELETE LINE TO ENABLE THEME */
 
-settings.theme = `
+export const DoomOneTheme = `
 /* Edit these variables for easy theme making */
 :root {
   /* Font */
@@ -345,5 +345,3 @@ input {
   font-weight: var(--font-weight);
 }
 `;
-
-export default settings.theme;

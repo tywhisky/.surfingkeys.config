@@ -1,6 +1,6 @@
 import { DefaultTheme } from './themes/default.js';
 import { RosePineTheme } from './themes/rose-pine.js';
-import DoomOneTheme from "./themes/doom-one.js";
+import { DoomOneTheme } from "./themes/doom-one.js";
 
 // Choose Tabs
 api.map('gt', 'T');
