@@ -1,14 +1,14 @@
-// ---- api.Hints ----
-// api.Hints have to be defined separately
+// ---- Hints ----
+// Hints have to be defined separately
 // Uncomment to enable
 
 // Tomorrow-Night
-/* -- DELETE LINE TO ENABLE THEME
+// /* -- DELETE LINE TO ENABLE THEME
 api.Hints.style('border: solid 2px #373B41; color:#52C196; background: initial; background-color: #1D1F21;');
 api.Hints.style("border: solid 2px #373B41 !important; padding: 1px !important; color: #C5C8C6 !important; background: #1D1F21 !important;", "text");
 api.Visual.style('marks', 'background-color: #52C19699;');
 api.Visual.style('cursor', 'background-color: #81A2BE;');
--- DELETE LINE TO ENABLE THEME */
+// -- DELETE LINE TO ENABLE THEME */
 
 // Nord
 /* -- DELETE LINE TO ENABLE THEME
@@ -19,10 +19,12 @@ api.Visual.style('cursor', 'background-color: #88C0D0;');
 -- DELETE LINE TO ENABLE THEME */
 
 // Doom One
+/* -- DELETE LINE TO ENABLE THEME
 api.Hints.style('border: solid 2px #282C34; color:#98be65; background: initial; background-color: #2E3440;');
 api.Hints.style("border: solid 2px #282C34 !important; padding: 1px !important; color: #51AFEF !important; background: #2E3440 !important;", "text");
 api.Visual.style('marks', 'background-color: #98be6599;');
 api.Visual.style('cursor', 'background-color: #51AFEF;');
+-- DELETE LINE TO ENABLE THEME */
 
 // Monokai
 /* -- DELETE LINE TO ENABLE THEME
@@ -32,7 +34,7 @@ api.Visual.style('marks', 'background-color: #A6E22E99;');
 api.Visual.style('cursor', 'background-color: #F92660;');
 -- DELETE LINE TO ENABLE THEME */
 
-export const DoomOneTheme = `
+export const TomorrowNightTheme = `
 /* Edit these variables for easy theme making */
 :root {
   /* Font */
@@ -47,7 +49,7 @@ export const DoomOneTheme = `
   /* -------------------- */
   /* -- Tomorrow Night -- */
   /* -------------------- */
-  /* -- DELETE LINE TO ENABLE THEME
+  // /* -- DELETE LINE TO ENABLE THEME
   --fg: #C5C8C6;
   --bg: #282A2E;
   --bg-dark: #1D1F21;
@@ -56,7 +58,7 @@ export const DoomOneTheme = `
   --accent-fg: #52C196;
   --info-fg: #AC7BBA;
   --select: #585858;
-  -- DELETE LINE TO ENABLE THEME */
+  // -- DELETE LINE TO ENABLE THEME */
 
   /* Unused Alternate Colors */
   /* --cyan: #4CB3BC; */

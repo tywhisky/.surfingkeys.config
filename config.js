@@ -1,6 +1,6 @@
 import { DefaultTheme } from './themes/default.js';
 import { RosePineTheme } from './themes/rose-pine.js';
-import { DoomOneTheme } from "./themes/doom-one.js";
+import { TomorrowNightTheme } from "./themes/doom-one.js";
 
 // Choose Tabs
 api.map('gt', 'T');
@@ -17,7 +17,7 @@ api.map('F', 'C');
 api.map("<ctrl-[>", "esc");
 
 // Set theme
-settings.theme = DoomOneTheme;
+settings.theme = TomorrowNightTheme;
 
 // Add Search for Bilibili
 api.removeSearchAlias('b');
