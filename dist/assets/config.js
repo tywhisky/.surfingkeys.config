@@ -13,7 +13,6 @@ const t="font-size: 13pt; font-family: 'JetBrains Mono NL', 'Cascadia Code', 'He
   /* -------------------- */
   /* -- Tomorrow Night -- */
   /* -------------------- */
-  // /* -- DELETE LINE TO ENABLE THEME
   --fg: #C5C8C6;
   --bg: #282A2E;
   --bg-dark: #1D1F21;
@@ -22,7 +21,6 @@ const t="font-size: 13pt; font-family: 'JetBrains Mono NL', 'Cascadia Code', 'He
   --accent-fg: #52C196;
   --info-fg: #AC7BBA;
   --select: #585858;
-  // -- DELETE LINE TO ENABLE THEME */
 
   /* Unused Alternate Colors */
   /* --cyan: #4CB3BC; */
