@@ -1,4 +1,38 @@
-const e="font-size: 13pt; font-family: 'JetBrains Mono NL', 'Cascadia Code', 'Helvetica Neue', Helvetica, Arial, sans-serif; border: 0px; color: #e0def4 !important; background: #191724; background-color: #191724";api.Hints.style(e);api.Hints.style(e,"text");Hints.style("border: solid 2px #282C34; color:#98be65; background: initial; background-color: #2E3440;");Hints.style("border: solid 2px #282C34 !important; padding: 1px !important; color: #51AFEF !important; background: #2E3440 !important;","text");Visual.style("marks","background-color: #98be6599;");Visual.style("cursor","background-color: #51AFEF;");settings.theme=`
+// ---- Hints ----
+// Hints have to be defined separately
+// Uncomment to enable
+
+// Tomorrow-Night
+/* -- DELETE LINE TO ENABLE THEME
+Hints.style('border: solid 2px #373B41; color:#52C196; background: initial; background-color: #1D1F21;');
+Hints.style("border: solid 2px #373B41 !important; padding: 1px !important; color: #C5C8C6 !important; background: #1D1F21 !important;", "text");
+Visual.style('marks', 'background-color: #52C19699;');
+Visual.style('cursor', 'background-color: #81A2BE;');
+-- DELETE LINE TO ENABLE THEME */
+
+// Nord
+/* -- DELETE LINE TO ENABLE THEME
+Hints.style('border: solid 2px #4C566A; color:#A3BE8C; background: initial; background-color: #3B4252;');
+Hints.style("border: solid 2px #4C566A !important; padding: 1px !important; color: #E5E9F0 !important; background: #3B4252 !important;", "text");
+Visual.style('marks', 'background-color: #A3BE8C99;');
+Visual.style('cursor', 'background-color: #88C0D0;');
+-- DELETE LINE TO ENABLE THEME */
+
+// Doom One
+Hints.style('border: solid 2px #282C34; color:#98be65; background: initial; background-color: #2E3440;');
+Hints.style("border: solid 2px #282C34 !important; padding: 1px !important; color: #51AFEF !important; background: #2E3440 !important;", "text");
+Visual.style('marks', 'background-color: #98be6599;');
+Visual.style('cursor', 'background-color: #51AFEF;');
+
+// Monokai
+/* -- DELETE LINE TO ENABLE THEME
+Hints.style('border: solid 2px #2D2E2E; color:#F92660; background: initial; background-color: #272822;');
+Hints.style("border: solid 2px #2D2E2E !important; padding: 1px !important; color: #A6E22E !important; background: #272822 !important;", "text");
+Visual.style('marks', 'background-color: #A6E22E99;');
+Visual.style('cursor', 'background-color: #F92660;');
+-- DELETE LINE TO ENABLE THEME */
+
+settings.theme = `
 /* Edit these variables for easy theme making */
 :root {
   /* Font */
@@ -310,4 +344,6 @@ input {
   font-size: var(--font-size);
   font-weight: var(--font-weight);
 }
-`;const t=settings.theme;api.map("gt","T");api.map("H","S");api.map("L","D");api.map("J","E");api.map("K","R");api.map("F","C");api.map("<ctrl-[>","esc");settings.theme=t;api.removeSearchAlias("b");api.addSearchAlias("b","bilibili","https://search.bilibili.com/all?keyword=","s","https://s.search.bilibili.com/main/suggest?func=suggest&suggest_type=accurate&sub_type=tag&main_ver=v1&highlight=&upuser_num=3&term=?",function(r){var o=JSON.parse(r.text).result.tag;return o.map(function(a){return a.value})},{favicon_url:"https://www.bilibili.com/favicon.ico"});api.removeSearchAlias("s");api.addSearchAlias("s","Xiaohongshu","https://www.xiaohongshu.com/search_result?keyword=","s","https://edith.xiaohongshu.com/api/sns/web/v1/search/recommend?keyword=",function(r){var o=JSON.parse(r.text).result.data.sug_items;return o.map(function(a){return a.text})},{favicon_url:"https://www.xiaohongshu.com/favicon.ico"});
+`;
+
+export default settings.theme;
