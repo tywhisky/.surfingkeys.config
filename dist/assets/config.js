@@ -1,4 +1,4 @@
-const e="font-size: 13pt; font-family: 'JetBrains Mono NL', 'Cascadia Code', 'Helvetica Neue', Helvetica, Arial, sans-serif; border: 0px; color: #e0def4 !important; background: #191724; background-color: #191724";api.Hints.style(e);api.Hints.style(e,"text");const a=`
+const t="font-size: 13pt; font-family: 'JetBrains Mono NL', 'Cascadia Code', 'Helvetica Neue', Helvetica, Arial, sans-serif; border: 0px; color: #e0def4 !important; background: #191724; background-color: #191724";api.Hints.style(t);api.Hints.style(t,"text");const a=`
   .sk_theme {
     background: #191724;
     color: #e0def4;
@@ -408,4 +408,4 @@ const e="font-size: 13pt; font-family: 'JetBrains Mono NL', 'Cascadia Code', 'He
       padding: 0.2rem;
     }
   }
-`;api.map("gt","T");api.map("H","S");api.map("L","D");api.map("J","E");api.map("K","R");api.map("F","C");api.map("<ctrl-[>","esc");settings.theme=a;api.removeSearchAlias("b");api.addSearchAlias("b","bilibili","https://search.bilibili.com/all?keyword=","s","https://s.search.bilibili.com/main/suggest?func=suggest&suggest_type=accurate&sub_type=tag&main_ver=v1&highlight=&upuser_num=3&term=?",function(i){var o=JSON.parse(i.text).result.tag;return o.map(function(t){return t.value})},{favicon_url:"https://www.bilibili.com/favicon.ico"});
+`;api.map("gt","T");api.map("H","S");api.map("L","D");api.map("J","E");api.map("K","R");api.map("F","C");api.map("<ctrl-[>","esc");settings.theme=a;api.removeSearchAlias("b");api.addSearchAlias("b","bilibili","https://search.bilibili.com/all?keyword=","s","https://s.search.bilibili.com/main/suggest?func=suggest&suggest_type=accurate&sub_type=tag&main_ver=v1&highlight=&upuser_num=3&term=?",function(e){var i=JSON.parse(e.text).result.tag;return i.map(function(o){return o.value})},{favicon_url:"https://www.bilibili.com/favicon.ico"});api.removeSearchAlias("s");api.addSearchAlias("s","Xiaohongshu","https://www.xiaohongshu.com/search_result?keyword=","s","https://edith.xiaohongshu.com/api/sns/web/v1/search/recommend?keyword=",function(e){var i=JSON.parse(e.text).result.data.sug_items;return i.map(function(o){return o.text})},{favicon_url:"https://www.xiaohongshu.com/favicon.ico"});
