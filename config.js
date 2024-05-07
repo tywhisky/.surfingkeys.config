@@ -1,6 +1,6 @@
-import { DefaultTheme } from './themes/default.js';
-import { RosePineTheme } from './themes/rose-pine.js';
-import { TomorrowNightTheme } from "./themes/doom-one.js";
+// import { DefaultTheme } from './themes/default.js';
+// import { RosePineTheme } from './themes/rose-pine.js';
+import { TomorrowNightTheme } from "./themes/tomorrow-night.js";
 
 // Choose Tabs
 api.map('gt', 'T');
