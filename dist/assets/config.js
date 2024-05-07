@@ -1,8 +1,13 @@
 api.Hints.style("border: solid 2px #373B41; color:#52C196; background: initial; background-color: #1D1F21;");api.Hints.style("border: solid 2px #373B41 !important; padding: 1px !important; color: #C5C8C6 !important; background: #1D1F21 !important;","text");api.Visual.style("marks","background-color: #52C19699;");api.Visual.style("cursor","background-color: #81A2BE;");const t=`
-/* Edit these variables for easy theme making */
+@import url("https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css");
+
+body {
+  font-family: 'Iosevka Web', monospace;
+}
+
 :root {
   /* Font */
-  --font: 'Source Code Pro', Ubuntu, sans;
+  --font: 'Iosevka Web', 'fangsong', monospace;
   --font-size: 12;
   --font-weight: bold;
 
@@ -175,6 +180,10 @@ input {
   color: var(--accent-fg);
 }
 
+.sk_theme #sk_omnibarSearchResult {
+  font-family: var(--font);
+}
+
 .sk_theme #sk_omnibarSearchResult ul li:nth-child(odd) {
   background: var(--bg-dark);
 }
@@ -186,11 +195,14 @@ input {
 .sk_theme #sk_omnibarSearchArea {
   border-top-color: var(--border);
   border-bottom-color: var(--border);
+  padding-bottom: 5px;
 }
 
 .sk_theme #sk_omnibarSearchArea input,
 .sk_theme #sk_omnibarSearchArea span {
-  font-size: var(--font-size);
+  display: flex;
+  font-family: var(--font);
+  font-size: medium;
 }
 
 .sk_theme .separator {
@@ -308,4 +320,4 @@ input {
   font-size: var(--font-size);
   font-weight: var(--font-weight);
 }
-`;api.map("gt","T");api.map("H","S");api.map("L","D");api.map("J","E");api.map("K","R");api.map("F","C");api.map("<ctrl-[>","esc");settings.theme=t;api.removeSearchAlias("b");api.addSearchAlias("b","bilibili","https://search.bilibili.com/all?keyword=","s","https://s.search.bilibili.com/main/suggest?func=suggest&suggest_type=accurate&sub_type=tag&main_ver=v1&highlight=&upuser_num=3&term=?",function(r){var o=JSON.parse(r.text).result.tag;return o.map(function(a){return a.value})},{favicon_url:"https://www.bilibili.com/favicon.ico"});api.removeSearchAlias("s");api.addSearchAlias("s","Xiaohongshu","https://www.xiaohongshu.com/search_result?keyword=","s","https://edith.xiaohongshu.com/api/sns/web/v1/search/recommend?keyword=",function(r){var o=JSON.parse(r.text).result.data.sug_items;return o.map(function(a){return a.text})},{favicon_url:"https://www.xiaohongshu.com/favicon.ico"});
+`;api.map("gt","T");api.map("H","S");api.map("L","D");api.map("J","E");api.map("K","R");api.map("F","C");api.map("<ctrl-[>","esc");settings.theme=t;api.removeSearchAlias("b");api.addSearchAlias("b","bilibili","https://search.bilibili.com/all?keyword=","s","https://s.search.bilibili.com/main/suggest?func=suggest&suggest_type=accurate&sub_type=tag&main_ver=v1&highlight=&upuser_num=3&term=?",function(o){var r=JSON.parse(o.text).result.tag;return r.map(function(a){return a.value})},{favicon_url:"https://www.bilibili.com/favicon.ico"});api.removeSearchAlias("s");api.addSearchAlias("s","Xiaohongshu","https://www.xiaohongshu.com/search_result?keyword=","s","https://edith.xiaohongshu.com/api/sns/web/v1/search/recommend?keyword=",function(o){var r=JSON.parse(o.text).result.data.sug_items;return r.map(function(a){return a.text})},{favicon_url:"https://www.xiaohongshu.com/favicon.ico"});

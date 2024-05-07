@@ -35,10 +35,15 @@ api.Visual.style('cursor', 'background-color: #F92660;');
 -- DELETE LINE TO ENABLE THEME */
 
 export const TomorrowNightTheme = `
-/* Edit these variables for easy theme making */
+@import url("https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css");
+
+body {
+  font-family: 'Iosevka Web', monospace;
+}
+
 :root {
   /* Font */
-  --font: 'Source Code Pro', Ubuntu, sans;
+  --font: 'Iosevka Web', 'fangsong', monospace;
   --font-size: 12;
   --font-weight: bold;
 
@@ -211,6 +216,10 @@ input {
   color: var(--accent-fg);
 }
 
+.sk_theme #sk_omnibarSearchResult {
+  font-family: var(--font);
+}
+
 .sk_theme #sk_omnibarSearchResult ul li:nth-child(odd) {
   background: var(--bg-dark);
 }
@@ -222,11 +231,14 @@ input {
 .sk_theme #sk_omnibarSearchArea {
   border-top-color: var(--border);
   border-bottom-color: var(--border);
+  padding-bottom: 5px;
 }
 
 .sk_theme #sk_omnibarSearchArea input,
 .sk_theme #sk_omnibarSearchArea span {
-  font-size: var(--font-size);
+  display: flex;
+  font-family: var(--font);
+  font-size: medium;
 }
 
 .sk_theme .separator {
