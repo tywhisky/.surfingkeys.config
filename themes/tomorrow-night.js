@@ -247,6 +247,17 @@ input {
   font-size: medium;
 }
 
+.sk_theme #sk_omnibarSearchArea .prompt {
+  text-transform: uppercase;
+  display: contents;
+}
+
+.sk_theme #sk_omnibarSearchArea .prompt .separator {
+  padding: 0 5px;
+  position: relative;
+  bottom: 1px;
+}
+
 .sk_theme .separator {
   color: var(--accent-fg);
 }
