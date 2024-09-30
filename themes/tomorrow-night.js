@@ -6,7 +6,7 @@ api.Visual.style('cursor', 'background-color: #81A2BE;');
 export const TomorrowNightTheme = `
 :root {
   /* Font */
-  --font: ui-serif, Georgia, Cambria, Times New Roman, Times, 'KaiTi', serif;
+  --font: 'Monaco', 'Consolas', 'STKaiti', serif;
   --font-size: 12;
   --font-weight: bold;
 

@@ -4,19 +4,24 @@ import { TomorrowNightTheme } from "./themes/tomorrow-night.js";
 
 // Choose Tabs
 api.map('gt', 'T');
+
 // Back and forward in history
-api.map('H', 'S');
-api.map('L', 'D');
+api.map('<Ctrl-h>', 'S');
+api.map('<Ctrl-l>', 'D');
+
 // Switch Tab to left and right
-api.map('J', 'E');
-api.map('K', 'R');
+api.map('<Ctrl-f>', 'R');
+api.map('<Ctrl-b>', 'E');
+
 // Open a link in a new tab
-api.map('<ctrl-f>', 'C');
+api.map('<Ctrl-f>', 'C');
+
 // ESC
-api.map("<ctrl-[>", "esc");
+api.map("<Ctrl-[>", "esc");
+
 // Scroll Up and Scroll Down
-api.map("<ctrl-n>", "d");
-api.map("<ctrl-p>", "u");
+api.map("<Ctrl-n>", "d");
+api.map("<Ctrl-p>", "u");
 
 // Set theme
 settings.theme = TomorrowNightTheme;
