@@ -6,12 +6,12 @@ import { TomorrowNightTheme } from "./themes/tomorrow-night.js";
 api.map('gt', 'T');
 
 // Back and forward in history
-api.map('<Ctrl-h>', 'S');
-api.map('<Ctrl-l>', 'D');
+api.map('H', 'S');
+api.map('L', 'D');
 
 // Switch Tab to left and right
-api.map('<Ctrl-f>', 'R');
-api.map('<Ctrl-b>', 'E');
+api.map('K', 'R');
+api.map('J', 'E');
 
 // Open a link in a new tab
 api.map('<Ctrl-f>', 'C');
