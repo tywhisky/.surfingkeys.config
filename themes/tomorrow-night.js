@@ -36,7 +36,7 @@ api.Visual.style('cursor', 'background-color: #F92660;');
 
 export const TomorrowNightTheme = `
 @font-face {
-    font-family: 'San Francisco Pro';
+    font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
     font-weight: normal;
     font-style: normal;
 }
