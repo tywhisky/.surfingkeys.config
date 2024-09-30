@@ -1,20 +1,12 @@
-api.Hints.style("border: solid 2px #373B41; color:#52C196; background: initial; background-color: #1D1F21;");api.Hints.style("border: solid 2px #373B41 !important; padding: 1px !important; color: #C5C8C6 !important; background: #1D1F21 !important;","text");api.Visual.style("marks","background-color: #52C19699;");api.Visual.style("cursor","background-color: #81A2BE;");const t=`
-@font-face {
-    font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, serif;
-    font-weight: normal;
-    font-style: normal;
-}
-
+api.Hints.style("border: solid 2px #373B41; color:#52C196; background: initial; background-color: #1D1F21;");api.Hints.style("border: solid 2px #373B41 !important; padding: 1px !important; color: #C5C8C6 !important; background: #1D1F21 !important;","text");api.Visual.style("marks","background-color: #52C19699;");api.Visual.style("cursor","background-color: #81A2BE;");const e=`
 body {
-  font-family: 'rubik', monospace;
+  /* Font */
+  font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, 'KaiTi', serif;
+  font-size: 12;
+  font-weight: bold;
 }
 
 :root {
-  /* Font */
-  --font: 'rubik', 'fangsong', monospace;
-  --font-size: 12;
-  --font-weight: bold;
-
   /* -------------- */
   /* --- THEMES --- */
   /* -------------- */
@@ -341,4 +333,4 @@ input {
   font-size: var(--font-size);
   font-weight: var(--font-weight);
 }
-`;api.map("gt","T");api.map("H","S");api.map("L","D");api.map("J","E");api.map("K","R");api.map("<ctrl-f>","C");api.map("<ctrl-[>","esc");api.map("<ctrl-n>","d");api.map("<ctrl-p>","u");settings.theme=t;api.removeSearchAlias("b");api.addSearchAlias("b","bilibili","https://search.bilibili.com/all?keyword=","s","https://s.search.bilibili.com/main/suggest?func=suggest&suggest_type=accurate&sub_type=tag&main_ver=v1&highlight=&upuser_num=3&term=?",function(r){var o=JSON.parse(r.text).result.tag;return o.map(function(a){return a.value})},{favicon_url:"https://www.bilibili.com/favicon.ico"});api.removeSearchAlias("s");api.addSearchAlias("s","Xiaohongshu","https://www.xiaohongshu.com/search_result?keyword=","s","https://edith.xiaohongshu.com/api/sns/web/v1/search/recommend?keyword=",function(r){var o=JSON.parse(r.text).result.data.sug_items;return o.map(function(a){return a.text})},{favicon_url:"https://www.xiaohongshu.com/favicon.ico"});
+`;api.map("gt","T");api.map("H","S");api.map("L","D");api.map("J","E");api.map("K","R");api.map("<ctrl-f>","C");api.map("<ctrl-[>","esc");api.map("<ctrl-n>","d");api.map("<ctrl-p>","u");settings.theme=e;api.removeSearchAlias("b");api.addSearchAlias("b","bilibili","https://search.bilibili.com/all?keyword=","s","https://s.search.bilibili.com/main/suggest?func=suggest&suggest_type=accurate&sub_type=tag&main_ver=v1&highlight=&upuser_num=3&term=?",function(r){var o=JSON.parse(r.text).result.tag;return o.map(function(a){return a.value})},{favicon_url:"https://www.bilibili.com/favicon.ico"});api.removeSearchAlias("s");api.addSearchAlias("s","Xiaohongshu","https://www.xiaohongshu.com/search_result?keyword=","s","https://edith.xiaohongshu.com/api/sns/web/v1/search/recommend?keyword=",function(r){var o=JSON.parse(r.text).result.data.sug_items;return o.map(function(a){return a.text})},{favicon_url:"https://www.xiaohongshu.com/favicon.ico"});
