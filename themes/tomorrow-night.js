@@ -4,14 +4,12 @@ api.Visual.style('marks', 'background-color: #52C19699;');
 api.Visual.style('cursor', 'background-color: #81A2BE;');
 
 export const TomorrowNightTheme = `
-body {
-  /* Font */
-  font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, 'KaiTi', serif;
-  font-size: 12;
-  font-weight: bold;
-}
-
 :root {
+  /* Font */
+  --font: ui-serif, Georgia, Cambria, Times New Roman, Times, 'KaiTi', serif;
+  --font-size: 12;
+  --font-weight: bold;
+
   /* -------------- */
   /* --- THEMES --- */
   /* -------------- */

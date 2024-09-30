@@ -1,12 +1,10 @@
 api.Hints.style("border: solid 2px #373B41; color:#52C196; background: initial; background-color: #1D1F21;");api.Hints.style("border: solid 2px #373B41 !important; padding: 1px !important; color: #C5C8C6 !important; background: #1D1F21 !important;","text");api.Visual.style("marks","background-color: #52C19699;");api.Visual.style("cursor","background-color: #81A2BE;");const e=`
-body {
-  /* Font */
-  font-family: ui-serif, Georgia, Cambria, Times New Roman, Times, 'KaiTi', serif;
-  font-size: 12;
-  font-weight: bold;
-}
-
 :root {
+  /* Font */
+  --font: ui-serif, Georgia, Cambria, Times New Roman, Times, 'KaiTi', serif;
+  --font-size: 12;
+  --font-weight: bold;
+
   /* -------------- */
   /* --- THEMES --- */
   /* -------------- */
