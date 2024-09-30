@@ -159,6 +159,10 @@ input {
   color: var(--accent-fg);
 }
 
+.sk_theme .omnibar_folder {
+  color: #3aaacc;
+}
+
 .sk_theme .url {
   color: var(--main-fg);
 }
