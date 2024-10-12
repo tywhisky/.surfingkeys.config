@@ -26,6 +26,9 @@ api.map("<Ctrl-p>", "u");
 // Set theme
 settings.theme = TomorrowNightTheme;
 
+// Hotkey to toggle Surfingkeys
+api.map('<Ctrl-i>', '<Alt-s>'); 
+
 // Add Search for Bilibili
 api.removeSearchAlias('b');
 api.addSearchAlias('b', 'bilibili', 'https://search.bilibili.com/all?keyword=', 's', 'https://s.search.bilibili.com/main/suggest?func=suggest&suggest_type=accurate&sub_type=tag&main_ver=v1&highlight=&upuser_num=3&term=?', function (response) {
