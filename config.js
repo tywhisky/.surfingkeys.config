@@ -14,7 +14,7 @@ api.map('K', 'R');
 api.map('J', 'E');
 
 // Open a link in a new tab
-api.map('<Ctrl-f>', 'C');
+api.map('<Shift-f>', 'C');
 
 // ESC
 api.map("<Ctrl-[>", "esc");
@@ -25,9 +25,6 @@ api.map("<Ctrl-p>", "u");
 
 // Set theme
 settings.theme = TomorrowNightTheme;
-
-// Hotkey to toggle Surfingkeys
-api.map('<Ctrl-i>', '<Alt-s>'); 
 
 // Add Search for Bilibili
 api.removeSearchAlias('b');
