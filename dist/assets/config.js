@@ -19,7 +19,7 @@ api.Hints.style("border: solid 2px #373B41; color:#52C196; background: initial; 
   --main-fg: #81A2BE;
   --accent-fg: #52C196;
   --info-fg: #AC7BBA;
-  --select: #585858;
+  --select: #4a376b;
 
   /* Unused Alternate Colors */
   /* --cyan: #4CB3BC; */
@@ -193,7 +193,7 @@ input {
 }
 
 .sk_theme #sk_omnibarSearchResult ul li.focused {
-  background: var(--border);
+  background: var(--select);
 }
 
 .sk_theme #sk_omnibarSearchArea {
