@@ -14,7 +14,7 @@ api.map('K', 'R');
 api.map('J', 'E');
 
 // Open a link in a new tab
-api.map('<Shift-f>', 'C');
+api.map('F', 'C');
 
 // ESC
 api.map("<Ctrl-[>", "esc");
