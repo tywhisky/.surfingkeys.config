@@ -221,7 +221,7 @@ export const RosePineTheme = `
     top: 10%;
     left: 10%;
     text-align: left;
-    box-shadow: #21202e;
+    box-shadow: 0px 2px 10px #21202e;
     z-index: 2147483298;
     padding: 1rem;
   }
@@ -266,7 +266,6 @@ export const RosePineTheme = `
     line-height: 10px;
     vertical-align: middle;
     border: solid 1px #524f67;
-    border-bottom-lolor: #524f67;
     border-radius: 3px;
     box-shadow: inset 0 -1px 0 #21202e;
   }
@@ -342,7 +341,7 @@ export const RosePineTheme = `
     color: #e0def4;
     border: solid 1px #524f67;
     border-radius: 3px;
-    box-shadow: #21202e;
+    box-shadow: 0px 2px 10px #21202e;
   }
   #sk_bubble {
     position: absolute;

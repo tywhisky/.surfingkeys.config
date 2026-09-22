@@ -7,16 +7,9 @@ export const TomorrowNightTheme = `
 :root {
   /* Font */
   --font: 'Monaco', 'Consolas', 'STKaiti', serif;
-  --font-size: 12;
+  --font-size: 12px;
   --font-weight: bold;
 
-  /* -------------- */
-  /* --- THEMES --- */
-  /* -------------- */
-
-  /* -------------------- */
-  /* -- Tomorrow Night -- */
-  /* -------------------- */
   --fg: #C5C8C6;
   --bg: #282A2E;
   --bg-dark: #1D1F21;
@@ -25,79 +18,11 @@ export const TomorrowNightTheme = `
   --accent-fg: #52C196;
   --info-fg: #AC7BBA;
   --select: #4a376b;
-
-  /* Unused Alternate Colors */
-  /* --cyan: #4CB3BC; */
-  /* --orange: #DE935F; */
-  /* --red: #CC6666; */
-  /* --yellow: #CBCA77; */
-
-  /* -------------------- */
-  /* --      NORD      -- */
-  /* -------------------- */
-  /* -- DELETE LINE TO ENABLE THEME
-  --fg: #E5E9F0;
-  --bg: #3B4252;
-  --bg-dark: #2E3440;
-  --border: #4C566A;
-  --main-fg: #88C0D0;
-  --accent-fg: #A3BE8C;
-  --info-fg: #5E81AC;
-  --select: #4C566A;
-  -- DELETE LINE TO ENABLE THEME */
-
-  /* Unused Alternate Colors */
-  /* --orange: #D08770; */
-  /* --red: #BF616A; */
-  /* --yellow: #EBCB8B; */
-
-  /* -------------------- */
-  /* --    DOOM ONE    -- */
-  /* -------------------- */
-  /* -- DELETE LINE TO ENABLE THEME
-  --fg: #51AFEF;
-  --bg: #2E3440;
-  --bg-dark: #21242B;
-  --border: #2257A0;
-  --main-fg: #51AFEF;
-  --accent-fg: #98be65;
-  --info-fg: #C678DD;
-  --select: #4C566A;
-  -- DELETE LINE TO ENABLE THEME */
-
-  /* Unused Alternate Colors */
-  /* --border-alt: #282C34; */
-  /* --cyan: #46D9FF; */
-  /* --orange: #DA8548; */
-  /* --red: #FF6C6B; */
-  /* --yellow: #ECBE7B; */
-
-  /* -------------------- */
-  /* --    MONOKAI    -- */
-  /* -------------------- */
-  /* -- DELETE LINE TO ENABLE THEME
-  --fg: #F8F8F2;
-  --bg: #272822;
-  --bg-dark: #1D1E19;
-  --border: #2D2E2E;
-  --main-fg: #F92660;
-  --accent-fg: #E6DB74;
-  --info-fg: #A6E22E;
-  --select: #556172;
-  -- DELETE LINE TO ENABLE THEME */
-
-  /* Unused Alternate Colors */
-  /* --red: #E74C3C; */
-  /* --orange: #FD971F; */
-  /* --blue: #268BD2; */
-  /* --violet: #9C91E4; */
-  /* --cyan: #66D9EF; */
 }
 
 /* ---------- Generic ---------- */
 .sk_theme {
-background: var(--bg);
-color: var(--fg);
+  color: var(--fg);
   background-color: var(--bg);
   border-color: var(--border);
   font-family: var(--font);
@@ -325,7 +250,7 @@ input {
 
 .normal-mode .ace_cursor {
   background-color: var(--fg) !important;
-  border: var(--fg) !important;
+  border: 1px solid var(--fg) !important;
   opacity: 0.7 !important;
 }
 
