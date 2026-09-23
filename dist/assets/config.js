@@ -1,7 +1,7 @@
 (()=>{api.Hints.style("border: solid 2px #373B41; color:#52C196; background: initial; background-color: #1D1F21;");api.Hints.style("border: solid 2px #373B41 !important; padding: 1px !important; color: #C5C8C6 !important; background: #1D1F21 !important;","text");api.Visual.style("marks","background-color: #52C19699;");api.Visual.style("cursor","background-color: #81A2BE;");var e=`
 :root {
   /* Font */
-  --font: 'Monaco', 'Consolas', 'STKaiti', serif;
+  --font: system-ui, sans-serif;
   --font-size: 12px;
   --font-weight: bold;
 
@@ -16,6 +16,11 @@
 }
 
 /* ---------- Generic ---------- */
+/* The tab chooser has no .sk_theme class; cover the entire UI iframe. */
+body, kbd {
+  font-family: var(--font);
+}
+
 .sk_theme {
   color: var(--fg);
   background-color: var(--bg);

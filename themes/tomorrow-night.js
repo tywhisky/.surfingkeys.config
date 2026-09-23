@@ -6,7 +6,7 @@ api.Visual.style('cursor', 'background-color: #81A2BE;');
 export const TomorrowNightTheme = `
 :root {
   /* Font */
-  --font: 'Monaco', 'Consolas', 'STKaiti', serif;
+  --font: system-ui, sans-serif;
   --font-size: 12px;
   --font-weight: bold;
 
@@ -21,6 +21,11 @@ export const TomorrowNightTheme = `
 }
 
 /* ---------- Generic ---------- */
+/* The tab chooser has no .sk_theme class; cover the entire UI iframe. */
+body, kbd {
+  font-family: var(--font);
+}
+
 .sk_theme {
   color: var(--fg);
   background-color: var(--bg);

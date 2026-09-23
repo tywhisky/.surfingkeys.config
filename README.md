@@ -65,6 +65,10 @@ Tomorrow Night is selected by default. To use Default or Rosé Pine, switch the
 active import at the top of `config.js`, keeping exactly one theme imported as
 `theme`, then rebuild. Theme modules also apply their own hint and visual styles.
 
+Tomorrow Night uses the system UI font for both the tab chooser and search popup.
+To customize it, change `--font` in `themes/tomorrow-night.js`. The font is also
+applied to the UI body because Surfingkeys' tab chooser has no `.sk_theme` class.
+
 After loading a changed config, check `gt`, `F`, `ob`, and `os` on a normal web
 page. Automated tests mock the extension API; they do not replace this browser
 check.
